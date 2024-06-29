@@ -4,7 +4,6 @@
 </head>
 <body>
 <h1>Break en la ventana del navegador con signo \ </h1>
-<p>
 <?php
 $color = "rojo";
 switch ($color) {
@@ -16,6 +15,5 @@ switch ($color) {
         break;
 }
 ?>
-</p>
 </body>
 </html>
