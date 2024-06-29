@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Ejemplo de operadores de Comparación</title>
+</head>
+<body>
+<h1>Ejemplo de operaciones comparación en PHP</h1>
+<?php
+$A = 5;
+$B = 3;
+$C = -12;
+
+echo ($A > 3) ? "True" : "False", "<br>";
+echo ($A > $C) ? "True" : "False", "<br>";
+echo ($A < $C) ? "True" : "False", "<br>";
+echo ($B < $C) ? "True" : "False", "<br>";
+echo ($B != $C) ? "True" : "False", "<br>";
+echo ($A == 3) ? "True" : "False", "<br>";
+echo ($A * $B == 15) ? "True" : "False", "<br>";
+echo ($A * $B == -30) ? "True" : "False", "<br>";
+echo ($C / $B < $A) ? "True" : "False", "<br>";
+echo ($C / $B == -10) ? "True" : "False", "<br>";
+echo ($C / $B == -4) ? "True" : "False", "<br>";
+echo ($A + $B + $C == -4) ? "True" : "False", "<br>";
+echo (($A + $B == 8) && ($A - $B == 2)) ? "True" : "False", "<br>";
+echo (($A + $B == 8) || ($A - $B == 6)) ? "True" : "False", "<br>";
+echo ($A > 3 && $B > 3 && $C < 3) ? "True" : "False", "<br>";
+echo ($A > 3 && $B >= 3 && $C < -3) ? "True" : "False", "<br>";
+?>
+</body>
+</html>
