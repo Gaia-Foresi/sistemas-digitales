@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>Ejemplo de operaciones</title>
+</head>
+<body>
+<h1></h1>
+<?php
+$a = 10;
+$b = 5;
+
+echo ($a == $b) ? "1" : (($a > $b) ? "2" : "3");
+?>
+</body>
+</html>
