@@ -4,12 +4,10 @@
 </head>
 <body>
 <h1>Break en la ventana del navegador </h1>
-<p>
 <?php
 $haceFrio = 15;
 $respuesta = ($haceFrio < 20) ? "Hace frio" : "No hace frio";
 echo $respuesta;
 ?>
-</p>
 </body>
 </html>
