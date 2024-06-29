@@ -3,7 +3,7 @@
 <title>Ejemplo de operaciones</title>
 </head>
 <body>
-<h1>Ejemplo de operaciones aritmeticas en PHP</h1>
+<h1></h1>
 <?php
 for ($i = 1; $i <= 10; $i++) {
     echo "4 x $i = " . (4 * $i) . "<br>";
