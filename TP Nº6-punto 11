@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>Ejemplo de operaciones</title>
+</head>
+<body>
+<h1>Ejemplo de operaciones aritmeticas en PHP</h1>
+<?php
+$num = rand(1, 3);
+$num_text = ["uno", "dos", "tres"];
+echo $num_text[$num - 1];
+?>
+</body>
+</html>
