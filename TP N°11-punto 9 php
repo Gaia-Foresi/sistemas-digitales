@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inscripción a Mesas de Examen</title>
+</head>
+<body>
+    <?php
+    $ar = fopen("comprobante.txt", "a") or die("Problemas en la creación");
+    fputs($ar, "Apellidos y Nombres: " . $_POST['nombre'] . "\n");
+    fputs($ar, "DNI: " . $_POST['dni'] . "\n");
+    fputs($ar, "Fecha de Nacimiento: " . $_POST['fecha_nacimiento'] . "\n");
+    fputs($ar, "Curso Actual: " . $_POST['curso_actual'] . "\n");
+    fputs($ar, "Cantidad de Materias Adeudadas: " . $_POST['materias_adeudadas'] . "\n");
+    fputs($ar, "Materia en la que se inscribe: " . $_POST['materia'] . "\n");
+    fputs($ar, "Fecha de Inscripción: " . $_POST['fecha_inscripcion'] . "\n");
+    fputs($ar, "--------------------------------------------------------\n");
+    fclose($ar);
+    echo "Inscripción realizada correctamente.";
+    ?>
+</body>
+</html>
