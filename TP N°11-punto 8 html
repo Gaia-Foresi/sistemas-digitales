@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Verificación de Número</title>
+</head>
+<body>
+    <form action="pagina2.php" method="post">
+        Ingrese un número:
+        <input type="text" name="numero">
+        <br>
+        <input type="submit" value="Verificar">
+    </form>
+</body>
+</html>
