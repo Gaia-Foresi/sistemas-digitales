@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Importe</title>
+</head>
+<body>
+    <?php
+    $importe = [10.5, 20.75, 30.60, 40.80];
+    echo "<p>Elemento en el índice 1: " . $importe[1] . "</p>";
+    ?>
+</body>
+</html>
