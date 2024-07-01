@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Verificación de Número</title>
+</head>
+<body>
+    <?php
+    function es_par($num) {
+        return $num % 2 == 0;
+    }
+    if (es_par($_POST['numero'])) {
+        echo "El número es par.";
+    } else {
+        echo "El número es impar.";
+    }
+    ?>
+</body>
+</html>
