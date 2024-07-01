@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Alineación del Equipo</title>
+</head>
+<body>
+    <?php
+    $jugador = ["García", "Martínez", "López", "Rodríguez", "Pérez"];
+    echo "<p>La alineación del equipo está compuesta por " . implode(", ", $jugador) . ".</p>";
+    ?>
+</body>
+</html>
