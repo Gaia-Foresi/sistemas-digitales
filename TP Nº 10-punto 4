@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Array de Confirmaciones</title>
+</head>
+<body>
+    <?php
+    $confirmado = [true, false, true, false, true, false];
+    echo "<p>Elemento en el índice 0: " . ($confirmado[0] ? "true" : "false") . "</p>";
+    ?>
+</body>
+</html>
