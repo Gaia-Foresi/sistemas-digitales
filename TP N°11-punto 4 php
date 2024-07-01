@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pedido de Pizzas</title>
+</head>
+<body>
+    <?php
+    $ar = fopen("pedidos.txt", "a") or die("Problemas en la creación");
+    fputs($ar, "Nombre: " . $_REQUEST['nombre'] . "\n");
+    fputs($ar, "Dirección: " . $_REQUEST['direccion'] . "\n");
+    fputs($ar, "Tipo de Pizza: " . $_REQUEST['tipo_pizza'] . "\n");
+    fputs($ar, "Cantidad: " . $_REQUEST['cantidad'] . "\n");
+    fputs($ar, "--------------------------------------------------------\n");
+    fclose($ar);
+    echo "El pedido se realizó correctamente.";
+    ?>
+</body>
+</html>
