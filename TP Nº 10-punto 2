@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Coches</title>
+</head>
+<body>
+    <?php
+    $coches = [10, 20, 30, 40, 50, 60, 70, 80];
+    echo "<p>Elemento en el índice 5: " . $coches[5] . "</p>";
+    ?>
+</body>
+</html>
