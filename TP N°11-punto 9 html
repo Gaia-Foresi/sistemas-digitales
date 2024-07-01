@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inscripción a Mesas de Examen</title>
+</head>
+<body>
+    <form action="pagina2.php" method="post">
+        Apellidos y Nombres:
+        <input type="text" name="nombre">
+        <br>
+        DNI:
+        <input type="text" name="dni">
+        <br>
+        Fecha de Nacimiento:
+        <input type="date" name="fecha_nacimiento">
+        <br>
+        Curso Actual:
+        <input type="text" name="curso_actual">
+        <br>
+        Cantidad de Materias Adeudadas:
+        <input type="number" name="materias_adeudadas">
+        <br>
+        Materia en la que se inscribe:
+        <input type="text" name="materia">
+        <br>
+        Fecha de Inscripción:
+        <input type="date" name="fecha_inscripcion">
+        <br>
+        <input type="submit" value="Confirmar Inscripción">
+    </form>
+</body>
+</html>
