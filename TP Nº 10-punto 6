@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meses del Año</title>
+</head>
+<body>
+    <?php
+    $meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+    sort($meses);
+    echo "<p>Meses del año ordenados alfabéticamente: " . implode(", ", $meses) . "</p>";
+    ?>
+</body>
+</html>
