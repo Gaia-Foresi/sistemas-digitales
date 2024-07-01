@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Suma de Números</title>
+</head>
+<body>
+    <form action="pagina2.php" method="post">
+        Número 1:
+        <input type="text" name="numero1">
+        <br>
+        Número 2:
+        <input type="text" name="numero2">
+        <br>
+        <input type="submit" value="Sumar">
+    </form>
+</body>
+</html>
