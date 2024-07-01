@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Días de la Semana</title>
+</head>
+<body>
+    <?php
+      $diasSemana = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"];
+      echo "Primer día de la semana: " . $diasSemana[0] . "\n";
+      echo "Último día de la semana: " . end($diasSemana) . "\n";
+    ?>
+</body>
+</html>
