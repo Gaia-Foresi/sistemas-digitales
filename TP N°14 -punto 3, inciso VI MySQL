@@ -1,0 +1,3 @@
+-- Esto generará un error debido a la duplicación del campo clave "legajo"
+INSERT INTO alumnos (legajo, documento, apellido, nombre, domicilio) VALUES
+('A233', '22345345', 'Perez', 'Mariana', 'Colon 234');
