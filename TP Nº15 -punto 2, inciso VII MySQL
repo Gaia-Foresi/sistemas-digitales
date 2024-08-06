@@ -1,0 +1,1 @@
+UPDATE articulos SET cantidad = 50, precio = 5550 WHERE codigo = 2;
