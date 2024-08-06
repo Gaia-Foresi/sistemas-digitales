@@ -1,0 +1,2 @@
+INSERT INTO medicamentos (codigo, nombre, laboratorio, precio, cantidad) VALUES
+(1, 'Duplicado', 'Roche', 5.2, 100);  -- Esto generará un error
