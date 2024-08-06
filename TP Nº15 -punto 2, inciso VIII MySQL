@@ -1,0 +1,1 @@
+UPDATE articulos SET cantidad = 100 WHERE cantidad = 1000;
