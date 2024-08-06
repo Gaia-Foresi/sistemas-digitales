@@ -1,0 +1,7 @@
+CREATE TABLE peliculas (
+    codigo INTEGER AUTO_INCREMENT,
+    titulo VARCHAR(30) NOT NULL,
+    actor VARCHAR(20),
+    duracion INTEGER,
+    PRIMARY KEY (codigo)
+);
