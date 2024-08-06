@@ -1,0 +1,2 @@
+INSERT INTO alumnos (legajo, documento, apellido, nombre, domicilio) VALUES
+('A233', '12345678', 'Lopez', 'Juan', 'Mitre 456');  -- Esto generará un error
